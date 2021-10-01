@@ -1,7 +1,9 @@
 function Contact() {
     return (
       <div>
-            Email:mkrishn1@emich.edu
+        <p>
+          E-mail: mkrishn1@emich.edu
+        </p>
       </div>  
 
     );

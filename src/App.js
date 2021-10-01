@@ -1,12 +1,13 @@
+import './App.css';
+
 function App() {
   return (
     <div>
-      <header>
-         </header>
-      <main>
-        <h1>
+      <h1>
         Meghana Krishnappa
-        </h1>
+         </h1>
+      <main>
+        
       </main>
     </div>
   );
