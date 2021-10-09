@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Contact from './components/contact'
-import Education from './components/education'
-import ComputerSkills from './components/computerskills'
+import Contact from './components/contact';
+import Education from './components/education';
+import ComputerSkills from './components/computerskills';
+import Courses from "./components";
+import {Projects} from "./components";
 
 
 ReactDOM.render(
@@ -33,4 +35,18 @@ ReactDOM.render(
     <ComputerSkills />
   </React.StrictMode>,
   document.getElementById('computerskills')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Courses />
+  </React.StrictMode>,
+  document.getElementById('courses')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Projects />
+  </React.StrictMode>,
+  document.getElementById('projects')
 );
