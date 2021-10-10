@@ -1,4 +1,4 @@
-import picture from '/home/ec2-user/my_website/profile-app-meghanakrishnappa1-3/src/assets/img1.png'
+import picture from '/home/ec2-user/my_website/profile-app-meghanakrishnappa1/src/assets/img1.png'
 
 function Profile() {
     return (
