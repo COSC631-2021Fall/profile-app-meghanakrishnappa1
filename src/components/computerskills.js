@@ -3,6 +3,7 @@ import '../App.css';
 function ComputerSkills() {
     return (
       <div>
+        <body>
           <h2>Computer Skills</h2>
           <u1>
           <li>Languages and Frameworks: Java, PHP, WordPress, J2EE, Python</li>
@@ -10,6 +11,7 @@ function ComputerSkills() {
           <li>Databases: MySQL, SQL Server, SQLite</li>
           <li>Operating Systems: Windows, macOS, Linux</li>
           </u1>
+        </body>
             
       </div>  
 

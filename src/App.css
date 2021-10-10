@@ -33,7 +33,19 @@ h3 {
   color:#1f4b69;
   font-size:17px;
 }
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 17px;
+}
 
 .App-link {
   color: #61dafb;
+}
+
+body {
+  background-image: url("./assets/background.png");
+
 }

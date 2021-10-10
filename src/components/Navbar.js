@@ -1,13 +1,13 @@
 function Navbar(){
     const links = [
         {
-        url:"/Module1",
-        name :"Module 1"
+        url:"/Profile",
+        name :"Profile pic"
 
         },
         {
-            url:"/Module2",
-            name :"Module 2"
+            url:"/Words",
+            name :"Words to describe myself"
     
         },
     ];
@@ -19,7 +19,8 @@ function Navbar(){
                 <a href={path.url}>{path.name}</a>&nbsp;
             </span>
         );
-    });
+    }
+    );
     return(
         <div>
             {menu}
